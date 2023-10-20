@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+    
+}
+
+
+body{
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    
+}
+
+section{
+   
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    border-radius: 20px;
+}
+
+header{
+    
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.container{
+    
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 2dvi;
+}
+
+footer{
+    
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo{
+    width: 100px;
+    height: 90%;
+    
+    border-radius: 20px
+}
+
+nav{
+    
+    width: 550px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li{
+    text-transform: uppercase;
+    color: white;
+    width: 90px;
+    height: 30px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direita_conteudo, .esquerda_conteudo{
+    height: 90%;
+    width: 300px;
+    color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+h1{
+    text-transform: uppercase;
+    
+    width: 90%;
+    height: 40%;
+    color: aqua;
+}
+
+.subtitle{
+    
+    width: 90%;
+    color: black;
+
+}
+
+#player{
+    width: 50px;
+    box-shadow: 1px 1px 5px;
+    border-radius: 50%;
+}
+
+#mouse{
+   width: 50px;
+   margin-bottom: 15px;
+   filter: invert(100%);
+}
+
+#logo{
+    width: 100%;
+}
+
+#anonimo {
+    height: 40px;
+  }
+
+
+#anonimo:hover {
+    cursor: pointer;
+    background-color: rgb(212, 0, 255);
+    transform: translateY(5px);
+  }
+
+.role{
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 10px;
+}
+
+.anonimo{
+    width: 80%;
+    height: 25px;
+    border-radius: 5rem;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    color: blue;
+    background-color: darkolivegreen;
+}
+#net{
+    width: 10px;
+}
